@@ -1,5 +1,6 @@
 ## Chess Project
 
+# Game in development.
 - The idea behind this project: https://www.theodinproject.com/lessons/ruby-chess
 - This console game is based on Wikipedia rules: https://en.wikipedia.org/wiki/Chess
 - The game will allow you to save your progress at any point during the game.
