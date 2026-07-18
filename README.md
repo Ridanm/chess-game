@@ -5,5 +5,5 @@
 - The game will allow you to save your progress at any point during the game.
 - To play, clone the repository, navigate to the chess-game folder, run:
 - - bundle install
-- - and then run:
+- and then run:
 - - ruby ​​lib/main.rb
