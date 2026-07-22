@@ -4,6 +4,6 @@
 module Info
   def self.show(parameter)
     {'enter name' => 'Welcome, please enter your name: ',
-    'select_piece_color' => 'Select the color of the pieces you will play with.'}[parameter]
+    'select piece color' => 'Select the color of the pieces you will play with press the number 1- white or 2- black: '}[parameter]
   end
 end
