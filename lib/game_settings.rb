@@ -7,7 +7,7 @@ class GameSettings
   include Info
   
   def enter_name
-    print Info.show('enter_name')
+    print Info.show('enter name')
     name = gets.chomp.capitalize.strip.squeeze(' ')
     enter_name if name.empty?
     name
@@ -23,10 +23,10 @@ class GameSettings
   def create_player
     name = enter_name
     color = enter_piece_color
-    if player_color == 1
-      'white'
-    elsif player_color == 2
-      'black'
+    if color == 1
+      color = 'white'
+    elsif color == 2
+      color = 'black'
     end
     Player.new(name, color)
   end
