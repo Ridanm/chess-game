@@ -1,4 +1,4 @@
-# frozen_steing_literal: true
+# frozen_string_literal: true
 
 # This module includes the text information to be displayed during the game.
 module Info
