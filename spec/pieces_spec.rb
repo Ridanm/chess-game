@@ -1,10 +1,9 @@
 # frozen_string_literal: true
 
-require_relative '../lib/pieces'
 require_relative '../lib/player'
 
 RSpec.describe Pieces do
-  let(:player) { Player.new }
+  let(:player) { Player.new('Joe', 'white') }
   
   context 'when call a king' do
     it 'if he is black' do
