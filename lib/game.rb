@@ -10,4 +10,8 @@ class Game
     @player_one = player_one
     @player_two = player_two
   end
+
+  def play
+
+  end
 end

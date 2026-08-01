@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative 'pieces'
+require_relative './pieces/pieces_module'
 
 # This class implements the board that will represent
 class Board
@@ -20,5 +20,13 @@ class Board
       puts "#{rank} #{formatted_row} #{rank}"
     end
     puts '  a b c d e f g h '
+  end
+
+  def initial_position_of_pieces
+    # place all the pieces in their initial position
+  end
+
+  def position(piece_color, position)
+    
   end
 end
