@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative 'pieces'
+require_relative './pieces/pieces_module'
 require_relative 'info_module'
 
 # This class implements what is necessary for each player.
