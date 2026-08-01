@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require '../lib/game_settings'
-require '../lib/player'
 
 RSpec.describe GameSettings do
   let(:player_one) { Player.new('Mary', 'white') }
